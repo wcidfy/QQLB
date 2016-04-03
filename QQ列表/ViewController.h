@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "MyHeadView.h"
+@interface ViewController : UITableViewController<headViewDelegate>
 
 
 @end
